@@ -1,0 +1,49 @@
+.main-card {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.images {
+    width: 50%;
+}
+
+.pagination-section {
+    text-align: center;
+    margin: 30px;
+}
+
+.page-number {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(146, 141, 141);
+    cursor: pointer;
+    border-radius: 45%;
+    background-color: rgb(189, 183, 183);
+    color: #fff;
+}
+
+.privious-next-btn {
+    padding: 10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.active-page-number {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(146, 141, 141);
+    cursor: pointer;
+    border-radius: 45%;
+    background-color: rgb(91, 173, 224);
+    color: #fff;
+}
